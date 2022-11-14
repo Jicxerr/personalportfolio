@@ -119,7 +119,13 @@
     z-index: 10;
    
   }
-  
+  .logo{
+    position: fixed;
+    width: 50px;
+    left: 20px;
+    top: 10px;
+  }
+
   .nav-list {
     display: flex;
     margin-right: 2rem;
@@ -188,10 +194,10 @@
     background-position: 0;
   }
   60%{
-    background-position: 180px;
+    background-position: 330px;
   }
   100%{
-    background-position: 180px;
+    background-position: 330px;
   }
   
 }

@@ -1,8 +1,6 @@
 @echo off
 pause
-git remote set-url origin https://github.com/Jicxerr/personalportfolio.git
-pause
-git add .
+git add --all
 git commit -m "Auto Upload"
-git push
+git push -u origin main
 pause
